@@ -1,5 +1,7 @@
 # IR-Labelmask-software
 
+专利保护：申请(专利)号： CN202310919118.3； 申请公布号： CN116958513A
+
 @ARTICLE{10506340,
 
   author={Kou, Renke and Wang, Chunping and Fu, Qiang and Li, Zhanwu and Luo, Ying and Li, Boyang and Li, Wei and Peng, Zhenming},
