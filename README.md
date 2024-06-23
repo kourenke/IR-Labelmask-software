@@ -24,7 +24,7 @@
 
 Abstract—Due to the lack of color and texture information and the fuzzy boundary of infrared (IR) small targets, the pixel-level mask annotation process consumes a lot of manual cost and is difficult to achieve accurate annotation. To further reduce the annotation burden, we propose an IR small target mask generation algorithm based on single-point supervised multi-scale chain growth clustering (MCGC). The core of this work is the adaptive generation of IR small-target pseudo mask maps under the supervision of randomly given single-point labels, sequentially through the strategies of multi-scale chain growth, Euclidean coefficient decay, K-Means clustering, and eight-neighborhood clustering. On the four public datasets, ablation experiments, qualitative and quantitative comparison experiments demonstrate that the MCGC algorithm has an efficient and accurate IR small target pseudo mask generation capability, which can be adapted to different numbers, scales, shapes, and intensities of targets in complex backgrounds. In addition, IR-Labelmask, an IR small target mask annotation software designed based on the MCGC algorithm, is publicly available on kourenke/IR-Labelmask-software (github.com). To our knowledge, this is the first mask annotation software designed for IR small target.
 
-In addition, we have also compiled a set of evaluation index libraries suitable for algorithms in this field, named BinarySOSMetrics.
+In addition, we have also compiled a set of evaluation metrics libraries suitable for algorithms in this field, named BinarySOSMetrics.
 
 The relevant code is published on https://github.com/BinarySOS/BinarySOSMetrics.
 
